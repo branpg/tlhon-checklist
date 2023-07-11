@@ -7,7 +7,7 @@ export const ZONES: Zone[] = [
       {"text": "Get Shuriken code", "completed": false},
       {"text": "Get Easy target", "completed": false},
       {"text": "Get Gilded axe", "completed": false},
-      {"text": "Get dagger of cycles", "completed": false},
+      {"text": "Get Dagger of cycles", "completed": false},
       {"text": "Get Locksmith's serrated saw", "completed": false},
       {"text": "Get Unrelenting feather", "completed": false},
       {"text": "Get Shield of inspiration", "completed": false}
