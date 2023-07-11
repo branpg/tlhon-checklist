@@ -1,0 +1,31 @@
+.step-row {
+  &:not(.step-completed) {
+    background-color: #dc3545;
+    &:hover {
+      background-color: #df4958;
+    }
+  }
+  &.step-completed {
+    background-color: #28a745;
+    &:hover {
+      background-color: #2ebf4f;
+      color: black;
+    }
+  }
+}
+.zone-completed-badge {
+  color: #fff;
+  background-color: #28a745;
+  padding: 0.25em .6em;
+  border-radius: 10rem;
+  display: inline-block;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.hide {
+  display: none;
+}

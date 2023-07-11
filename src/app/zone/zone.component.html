@@ -1,0 +1,21 @@
+<table mat-table [dataSource]="zone.steps">
+  <ng-container matColumnDef="step-text">
+    <th mat-header-cell *matHeaderCellDef>
+      {{zone.name}}
+      <span *ngIf="zone.completed" class="zone-completed-badge">Zone completed</span>
+    </th>
+    <td mat-cell *matCellDef="let step"> {{step.text}} </td>
+  </ng-container>
+  <tr
+    mat-header-row
+    *matHeaderRowDef="['step-text']"
+    (click)="toggleStepsVisibility()"
+  ></tr>
+  <tr
+    mat-row
+    *matRowDef="let step; columns: ['step-text']"
+    class="step-row"
+    [ngClass]="{'step-completed': step.completed, 'hide': !showSteps}"
+    (click)="toggleStepCompleted(step)"
+  ></tr>
+</table>

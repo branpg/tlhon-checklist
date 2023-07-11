@@ -1,0 +1,5 @@
+<app-zone
+  *ngFor="let zone of zones"
+  [zone]="zone"
+  (stepChanged)="saveZones()"
+></app-zone>
