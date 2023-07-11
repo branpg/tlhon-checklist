@@ -4,10 +4,10 @@ export const ZONES: Zone[] = [
   {
     "name": "Hall of heroes",
     "steps": [
-      {"text": "Get Shuriken code", "completed": false},
       {"text": "Get Easy target", "completed": false},
       {"text": "Get Gilded axe", "completed": false},
       {"text": "Get Dagger of cycles", "completed": false},
+      {"text": "Get Shuriken code", "completed": false},
       {"text": "Get Locksmith's serrated saw", "completed": false},
       {"text": "Get Unrelenting feather", "completed": false},
       {"text": "Get Shield of inspiration", "completed": false}
@@ -28,10 +28,10 @@ export const ZONES: Zone[] = [
       {"text": "Get Stolen wraps", "completed": false},
       {"text": "Remember Gilded axe", "completed": false},
       {"text": "Get Pricky mirror code", "completed": false},
-      {"text": "Remember Stolen wraps", "completed": false},
       {"text": "Get Master chef's iron apron", "completed": false},
       {"text": "Farm Disgraced defence", "completed": false},
       {"text": "Get Edge of entropy", "completed": false},
+      {"text": "Remember Stolen wraps", "completed": false},
       {"text": "Get Smith's hammer", "completed": false},
       {"text": "Remember Smith's hammer", "completed": false},
       {"text": "Get Covert cultist cover", "completed": false},
@@ -43,7 +43,8 @@ export const ZONES: Zone[] = [
       {"text": "Get Anti-hero pothead", "completed": false},
       {"text": "Unlock merchant", "completed": false},
       {"text": "Buy Noble Epeen", "completed": false},
-      {"text": "Remember Noble Epeen", "completed": false},
+      {"text": "Buy Vibrating sword", "completed": false},
+      {"text": "Remember Vibrating sword", "completed": false},
       {"text": "Buy Shield Of Nostalran", "completed": false},
       {"text": "Buy Tainted knife code", "completed": false},
       {"text": "Buy Reliable driftwood", "completed": false},
@@ -51,13 +52,7 @@ export const ZONES: Zone[] = [
       {"text": "Buy Improprietous cufflinks", "completed": false},
       {"text": "Buy Devout broach", "completed": false},
       {"text": "Buy Sensitive doll", "completed": false},
-      {"text": "Buy Homing pixel code (Starting spell for Sourceror)", "completed": false},
-      {"text": "Buy Vibrating sword", "completed": false},
-      {"text": "Remember Vibrating sword", "completed": false},
-      {"text": "Buy ", "completed": false},
-      {"text": "Buy ", "completed": false},
-      {"text": "Buy ", "completed": false},
-      {"text": "Buy ", "completed": false}
+      {"text": "Buy Homing pixel code (Starting spell for Sourceror)", "completed": false}
     ], "completed": false
   },
   {
@@ -113,7 +108,8 @@ export const ZONES: Zone[] = [
     "name": "Oreshaft village - Uprez",
     "steps": [
       {"text": "Remember Shield Of Nostalran", "completed": false},
-      {"text": "Get Suspicious spoon", "completed": false}
+      {"text": "Get Suspicious spoon", "completed": false},
+      {"text": "Remember Noble Epeen", "completed": false}
     ], "completed": false
   },
   {
