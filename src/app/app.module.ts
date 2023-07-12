@@ -9,12 +9,17 @@ import {MatListModule} from "@angular/material/list";
 import {MatCardModule} from "@angular/material/card";
 import {MatTableModule} from "@angular/material/table";
 import {MatButtonModule} from "@angular/material/button";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatIconModule} from "@angular/material/icon";
+import {MatBadgeModule} from "@angular/material/badge";
+import { ClickStopPropagationDirective } from './click-stop-propagation.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompleteTasklistComponent,
-    ZoneComponent
+    ZoneComponent,
+    ClickStopPropagationDirective
   ],
   imports: [
     BrowserModule,
@@ -22,7 +27,10 @@ import {MatButtonModule} from "@angular/material/button";
     MatListModule,
     MatCardModule,
     MatTableModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCheckboxModule,
+    MatIconModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

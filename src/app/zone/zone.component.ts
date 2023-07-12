@@ -1,7 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Zone} from "../zone";
 import {Step} from "../step";
-import {MatButton} from "@angular/material/button";
 
 @Component({
   selector: 'app-zone',
@@ -10,6 +9,7 @@ import {MatButton} from "@angular/material/button";
 })
 export class ZoneComponent {
   @Input() zone!: Zone;
+  @Input() spoilers!: boolean;
   showSteps: boolean;
   @Output() stepChanged: EventEmitter<string>;
 
@@ -20,10 +20,14 @@ export class ZoneComponent {
 
   ngOnInit() {
     this.showSteps = !this.zone.completed;
+    this.zone.steps.forEach(function (step) {
+      step.showHints = 0;
+    })
   }
 
   toggleStepCompleted(step: Step) {
     step.completed = !step.completed;
+    step.showHints = 0;
     this.checkCompleted();
     this.showSteps = !this.zone.completed || !this.showSteps;
     this.stepChanged.emit();
@@ -42,11 +46,10 @@ export class ZoneComponent {
 
   checkCompleted() {
     let incomplete = this.zone.steps.filter(step => !step.completed);
-    console.log(incomplete);
-    if (incomplete.length === 0) {
-      this.zone.completed = true;
-    } else {
-      this.zone.completed = false;
-    }
+    this.zone.completed = incomplete.length === 0;
+  }
+
+  showHint(step: Step) {
+    step.showHints++;
   }
 }

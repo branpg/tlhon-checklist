@@ -9,9 +9,11 @@ import {ZoneService} from "../zone.service";
 })
 export class CompleteTasklistComponent {
   zones: Zone[];
+  spoilers: boolean;
 
   constructor(zoneService: ZoneService) {
     this.zones = zoneService.getZones();
+    this.spoilers = JSON.parse(localStorage.getItem('spoilers') ?? 'false');
   }
 
   saveZones() {
@@ -24,5 +26,10 @@ export class CompleteTasklistComponent {
     zoneService.save([]);
     this.zones = zoneService.getZones();
     window.location.reload();
+  }
+
+  changeSpoilers() {
+    this.spoilers = !this.spoilers;
+    localStorage.setItem('spoilers', JSON.stringify(this.spoilers));
   }
 }
