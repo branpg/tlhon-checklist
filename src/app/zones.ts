@@ -59,18 +59,18 @@ export const ZONES: Zone[] = [
     "name": "The depths",
     "steps": [
       {"text": "Get Iron Jimmy", "completed": false},
-      {"text": "Get Chain mail code", "completed": false},
-      {"text": "Get Mighty soap", "completed": false},
-      {"text": "Get Exploding puppy code", "completed": false},
-      {"text": "Get Nimble padlock", "completed": false},
-      {"text": "Get Shellter", "completed": false},
       {"text": "Remember Iron Jimmy", "completed": false},
+      {"text": "Get Chain mail code", "completed": false},
+      {"text": "Get Shellter", "completed": false},
       {"text": "Get Primal pelts", "completed": false},
       {
         "text": "Meet Nameless Nhero and Lady Sco. Talk to them and assist them in the fight (Required for Vengance and Blade the bold)",
         "completed": false
       },
       {"text": "Get Arachnid's stinger", "completed": false},
+      {"text": "Get Exploding puppy code", "completed": false},
+      {"text": "Get Mighty soap", "completed": false},
+      {"text": "Get Nimble padlock", "completed": false},
       {"text": "Get Leonard's lounge shorts", "completed": false},
       {"text": "Get The legeneric", "completed": false},
       {"text": "Get My crafter", "completed": false}
