@@ -25,6 +25,7 @@ export class ZoneComponent {
   toggleStepCompleted(step: Step) {
     step.completed = !step.completed;
     this.checkCompleted();
+    this.showSteps = !this.zone.completed || !this.showSteps;
     this.stepChanged.emit();
   }
 
