@@ -59,7 +59,7 @@ export const ZONES: Zone[] = [
     "name": "The depths",
     "steps": [
       {"text": "Get Iron Jimmy", "completed": false},
-      {"text": "Get Mail chain code", "completed": false},
+      {"text": "Get Chain mail code", "completed": false},
       {"text": "Get Mighty soap", "completed": false},
       {"text": "Get Exploding puppy code", "completed": false},
       {"text": "Get Nimble padlock", "completed": false},

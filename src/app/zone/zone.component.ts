@@ -24,17 +24,28 @@ export class ZoneComponent {
 
   toggleStepCompleted(step: Step) {
     step.completed = !step.completed;
+    this.checkCompleted();
+    this.stepChanged.emit();
+  }
+
+  toggleStepsVisibility(event: MouseEvent|TouchEvent) {
+    if (event.ctrlKey || event.metaKey) {
+      this.zone.steps.forEach(function (step) {
+        step.completed = true;
+      });
+      this.checkCompleted();
+      this.stepChanged.emit();
+    }
+    this.showSteps = !this.zone.completed || !this.showSteps;
+  }
+
+  checkCompleted() {
     let incomplete = this.zone.steps.filter(step => !step.completed);
+    console.log(incomplete);
     if (incomplete.length === 0) {
       this.zone.completed = true;
     } else {
       this.zone.completed = false;
     }
-    this.showSteps = !this.zone.completed;
-    this.stepChanged.emit();
-  }
-
-  toggleStepsVisibility() {
-    this.showSteps = !this.zone.completed || !this.showSteps;
   }
 }

@@ -18,4 +18,11 @@ export class CompleteTasklistComponent {
     let zoneService = new ZoneService()
     zoneService.save(this.zones);
   }
+
+  reset() {
+    let zoneService = new ZoneService()
+    zoneService.save([]);
+    this.zones = zoneService.getZones();
+    window.location.reload();
+  }
 }

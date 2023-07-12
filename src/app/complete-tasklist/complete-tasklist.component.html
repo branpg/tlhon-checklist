@@ -1,3 +1,14 @@
+<mat-card id="info">
+  <mat-card-header>
+    <mat-card-title>The last hero of Nostalgaia - Checklist</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    This checklist contains all steps required to get every spell, rune, NPC quest and item remembered in order. Just follow the list in order and if missing any item backtrack. In later versions i will include more info and an spoiler free checklist.
+    <div class="text-center">
+      <button mat-flat-button color="primary" (click)="reset()">Reset</button>
+    </div>
+  </mat-card-content>
+</mat-card>
 <app-zone
   *ngFor="let zone of zones"
   [zone]="zone"
