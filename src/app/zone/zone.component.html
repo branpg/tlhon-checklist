@@ -6,9 +6,9 @@
     </th>
     <td mat-cell *matCellDef="let step" class="step-cell">
       <h2>{{step.text}}
-        <mat-list *ngIf="step.hints.length > 0 && step.showHints > 0 && !step.completed">
-          <ng-container *ngFor="let hint of step.hints;let i = index">
-            <mat-list-item *ngIf="!step.completed && (spoilers || i < step.showHints)">
+        <mat-list *ngIf="step.hints.length > 0 && !step.completed && (step.showHints > 0  || spoilers)">
+          <ng-container *ngFor="let hint of step.hints;let i = index; let last = last">
+            <mat-list-item *ngIf="!step.completed && ((spoilers && last) || i < step.showHints)">
               {{ hint }}
             </mat-list-item>
           </ng-container>

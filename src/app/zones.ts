@@ -16,37 +16,55 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Gilded axe",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "What is doing an axe on a library?",
+          "Found on a shine on the left side of the narrator's library"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Dagger of cycles",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On one of the shrines of the narrator's library"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Shuriken code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Check the second floor of the narrator's library",
+          "There is a shine with the item on the other side of the bridge where you get ambushed"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Locksmith's serrated saw",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "You can't really miss that one",
+          "On the corpse near the Hall of heroes beacon"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Unrelenting feather",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Look arround NPC staging area",
+          "Sometimes boxes contains items",
+          "Inside of the NPC staging area look for a bunch of a crates near a chest. Break them and inside there will be the item."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Shield of inspiration",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Time to get inspired by the heroic statue",
+          "Kill Spirit of heroism"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -57,19 +75,28 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Locksmith's serrated saw",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Do as instructed by the Old man",
+          "This one is a tutorial of the remember mechanic, just get close to the old man and remember the key. Can't continue until you do this."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Shield of inspiration",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "It's a small zone. Just look around.",
+          "Down the spiral stairs",
+          "Go down the spiral stairs, and open the door to the heart of Nostalgaia. Remember the item near the broken pipe."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Heart of a hero",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the floor near the beacon"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -80,73 +107,109 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Boastful mug",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside of a house near the first beacon",
+          "There is a hidden ladder behind a bunch of boxes in the house",
+          "From the entrance of the village go to the left and you will see a house. Open the door and inside you will find a bunch of boxes. Break then and go up the hidden leader. The item will be near the fireplace."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Stolen wraps",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Just an unassuming and insignificant house",
+          "Near the first beacon of the city there is a house with a sign that claims \"Just an unassuming and insignificant house\" guarded by a knight. The item is in the floor in front of the door."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Gilded axe",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Praise the axe",
+          "Go inside of the chapel and remember the item in the podium."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Pricky mirror code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Look inside of the chapel",
+          "On a balcony",
+          "Inside of the chapel take the door to the right and go up the stairs. There will be the item."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Master chef's iron apron",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the basement of the house you traverse to go to the Gnom statue from the first beacon"
+        ],
         "showHints": 0
       },
       {
         "text": "Farm Disgraced defence",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the Disgraced soldiers"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Edge of entropy",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "To the right as you enter on the Gnom statue zone from the entrance of the city"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Stolen wraps",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "That ass",
+          "The statue looks sexy",
+          "Go to the Gnom statue and remember the torso behind it."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Smith's hammer",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "The name of the item gives a hint.",
+          "Inside of the Blacksmith shop near Gnom's statue"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Smith's hammer",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Uh scary",
+          "Just remember on the same place you found it"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Covert cultist cover",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "There is a cold path",
+          "Now that's a masacre",
+          "Go through the arc near the merchant and the blacksmith. Follow the snowy path until you reach a pile of dead NPCs. The item is in one of the corpses."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Demon tear jerker",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Go through the arc near the merchant and the blacksmith. Follow the snowy path until you reach a cave. Lying in the floor near the closed entrance to the Unbreakable maw."
+        ],
         "showHints": 0
       },
       {
@@ -158,13 +221,18 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Covert cultist cover",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Just an unassuming and insignificant house",
+          "Near the first beacon of the city there is a house with a sign that claims \"Just an unassuming and insignificant house\" guarded by a knight. Remember the item in the door."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Caliber of memory",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Right before the barn that leads up to Oreshaft Shelter. Hidden in a building with NPCs lying in ambush as shown here."
+        ],
         "showHints": 0
       },
       {
@@ -176,13 +244,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Anti-hero pothead",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the anti-hero on the path to the blacksmith, under where you find Reservoir of pain for the first time"
+        ],
         "showHints": 0
       },
       {
         "text": "Unlock merchant",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Give him the handcuffs found near the anvil of this zone"
+        ],
         "showHints": 0
       },
       {
@@ -259,79 +331,108 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Iron Jimmy",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the floor of the room where you find the first observer and the three kobolds"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Iron Jimmy",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the damamged door to the NPC room"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Chain mail code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside of the mining area go until you see a tunnel to your right that goes up. The item will be near some boxes to the right."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Shellter",
         "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Primal pelts",
-        "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside some boxes on a room with some kobolds, NPCs and a observer"
+        ],
         "showHints": 0
       },
       {
         "text": "Meet Nameless Nhero and Lady Sco. Talk to them and assist them in the fight (Required for Vengance and Blade the bold)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Take the left path when you get into a zone with 3 posible options"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Arachnid's stinger",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the degraded spider on the zone where Nhero and Lady Sco quest starts"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Primal pelts",
+        "completed": false,
+        "hints": [
+          "Lying in the floor near the exit of the degraded spider zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Exploding puppy code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Right before the metal door leading to the zone previous to The grinder zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Mighty soap",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Explore the mines until you go through the forked tunnel. In the end, after the minecart there will be another fork. Jump on the ledge of the left and get the item."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Nimble padlock",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near the knight after the NPC room beacon",
+          "Go up the stairs to the right of the knight",
+          "Start at the Depths NPC Room Beacon. Go up the stairs and deal with Knight. Then go up another set of stairs to go into this open window. You'll be outside and you should notice an item on the ledge. Jump off onto the ledge and collect this item."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Leonard's lounge shorts",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a broken bridge on the zone before the grinder"
+        ],
         "showHints": 0
       },
       {
         "text": "Get The legeneric",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the boss",
+          "Kill The grinder"
+        ],
         "showHints": 0
       },
       {
         "text": "Get My crafter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the first room after the Grinder elevator"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -340,43 +441,57 @@ export const ZONES: Zone[] = [
     "name": "Festivity row",
     "steps": [
       {
-        "text": "Get Green herb code",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
         "text": "Get Hungry napkin",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Look around banana tree",
+          "Between the two knife-throwing nobles near the banana tree"
+        ],
         "showHints": 0
       },
       {
         "text": "Farm Golden guard",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the Golden guards"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Green herb code",
+        "completed": false,
+        "hints": [
+          "Inside of the spire area",
+          "Under the stairs at the bottom of the spire area"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Disgraced defence",
+        "completed": false,
+        "hints": [
+          "In a shower with a lot of brown of it at the bottom of the spire area"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Golden guard",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the golden throne at top of the spire area, after taking the elevator"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Brain piercer",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "It should be on a sitting corpse near the entrance to the Spire"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Brain piercer",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Remember Disgraced defence",
         "completed": false,
         "hints": [],
         "showHints": 0
@@ -396,13 +511,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Beat Vengance",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "You see her running as you get out the elevator, follow and confront her"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Quaker's strut",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "In the rafters above the theater"
+        ],
         "showHints": 0
       },
       {
@@ -412,21 +531,20 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Get Scope cutter",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
         "text": "Get Chrysalis tooth",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near de entrance of the theater"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Cagey candlestick",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside the theater",
+          "At the bottom of the theater, near a vampiric noble and a row of seats"
+        ],
         "showHints": 0
       },
       {
@@ -438,7 +556,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Anti-hero establishment",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the anti-hero on the path to the elevator to the next zone"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -449,7 +569,11 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Easy target",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Look arround NPC staging room.",
+          "Maybe there is something you can uprez on this zone",
+          "On the NPC staging room there is a door you can uprez for 500 memory. Inside of the room you can remember the item."
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -460,19 +584,31 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Shield Of Nostalran",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "The tavern got some good looking beds",
+          "The room's door looks unstable",
+          "There is an unstable door inside of the tavern on the second floor. Inside of this room there will be beds with several Memories of NPCs. Remember the shield here."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Suspicious spoon",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "The tavern got some good looking beds",
+          "The room's door looks unstable",
+          "There is an unstable door inside of the tavern on the second floor. Inside of this room there will be beds with several Memories of NPCs. In this room there is a broken wall that leads into another room. Go through it and get the item."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Noble Epeen",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside of a house near the first beacon",
+          "There is a hidden ladder behind a bunch of boxes in the house",
+          "From the entrance of the village go to the left and you will see a house. Open the door and inside you will find a bunch of boxes. Break then and go up the hidden leader. Uprez the unstable door and enter the room. Remember the item here."
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -489,13 +625,18 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Sassy mousetrap",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the room with the first observer take the right path, at the end of it uprez the unstable chest"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Wise lantern",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Check the forked tunnel",
+          "In a unstable chest in the flooded part of the forked tunnel"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -506,19 +647,27 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Crown of the undone",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the office desk"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Bucko blade",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Two knights guarding a fridge?",
+          "Check the cells",
+          "Inside the far left cell of the room with two knights and a fridge. Pull the lever to open de cells."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Introspective purse",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "TODO: Check where it is. It seems to be near the entrance"
+        ],
         "showHints": 0
       },
       {
@@ -530,19 +679,25 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Arachnid's stinger",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside the cell with a refrigerator of the room with two guard knights. Pull the lever to open de cells."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Irrelevant appendage",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the stove near the kitchen beacon"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Master chef's iron apron",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the stove near the kitchen beacon"
+        ],
         "showHints": 0
       },
       {
@@ -554,13 +709,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Amnesiac's hope",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the floor at same room Blade the blood is"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Crucible",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the unstable chest near the kitchen"
+        ],
         "showHints": 0
       },
       {
@@ -577,7 +736,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Agile paperweight",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Into the player housing area, near the cliff edge"
+        ],
         "showHints": 0
       },
       {
@@ -589,7 +750,10 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Gnom's dancing pole",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the boss",
+          "Kill Gnom"
+        ],
         "showHints": 0
       },
       {
@@ -601,7 +765,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Shellter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "In the rainbow bridge"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -647,55 +813,76 @@ export const ZONES: Zone[] = [
       {
         "text": "Farm Lost one's visage",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the Wild ones"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Overflow nova code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "At the end of the hill after activating the first crystal rod"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Accommodating gourd",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the village",
+          "On the top of the platforms",
+          "Climb to the platforms on the village. After crossing a bridge look down and you should see the item. Drop from the edge and get it."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Source weapon code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near a big log guarded by 2 skeletons and a wild one",
+          "Go to the area that has a log going down and a path up. Go up and get into another log. There should be a chest containing this item."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Sword of service",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "To the right side of the first crystal rod"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Anti-hero wagglers",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the anti-hero on the NPC room"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Servant's shield",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Found near the tower of the second crystal rod"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Chrysalis tooth",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the lemonade stand on the side of the main path"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Predator's putter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the mini golf field"
+        ],
         "showHints": 0
       },
       {
@@ -707,35 +894,47 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Sword of service",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Where you kill the fairy that gives the Translucent map"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember My crafter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the anvil of this zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Receptive hinge",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Traverse the foggy maze",
+          "You need the Translucent map",
+          "Get the Translucent map and go to the entrance of the foggy maze (Going down a log on the village that leads with a room with a 2 logs going up and one going down, take the one going down). Now follow the glimmering wisps and the item should be on the path."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Crown of the undone",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the grave near Maiden Crone's hut"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Lost one's visage",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the house near Maiden Crone's hut"
+        ],
         "showHints": 0
       },
       {
-        "text": "Get Gourd",
+        "text": "Talk to Maiden Crone",
         "completed": false,
         "hints": [],
         "showHints": 0
@@ -748,7 +947,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Servant's shield (Requires Sword of service remembered)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Go through the arc near the merchant and the blacksmith. Follow the snowy path until you see piles of dead NPCs. Remember the item here."
+        ],
         "showHints": 0
       },
       {
@@ -760,7 +961,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Edge of entropy (Requires Chrysalis tooth remembered)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a void erupting altar inside of a cave found after flat traversing the bridge near the anvil"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -771,13 +974,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Determined toy",
         "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Playful leaf",
-        "completed": false,
-        "hints": [],
+        "hints": [
+          "Return back to the Maiden Crone's house and talk to her"
+        ],
         "showHints": 0
       },
       {
@@ -787,15 +986,19 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Get Withered icon",
+        "text": "Get Forgottenspace armor",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the upper platforms in the village area"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Red racers",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the degraded spider on a pit near the end of the zone"
+        ],
         "showHints": 0
       },
       {
@@ -805,9 +1008,11 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Get Forgottenspace armor",
+        "text": "Get Playful leaf",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a unstable chest in the corner near the corrupted spider"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -876,25 +1081,33 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Empty diary",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the top of a hill inside of the maze"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Tunic's tunic",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "At the start of the zone, inside one of the cells"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Stack overflow code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the entrance to the ladder shortcut"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Datum digging dagger",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a room with an abomination near the ladder shortcut"
+        ],
         "showHints": 0
       },
       {
@@ -906,7 +1119,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Devourer of strife",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the third room to the right at a hallway of open rooms"
+        ],
         "showHints": 0
       },
       {
@@ -918,7 +1133,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Unsurped usurper's bloodletter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          'On a cell right before the staircase that leads into the castle'
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -929,31 +1146,41 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Anti-hero uptight-ass-kickers",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the anti-hero on the entrance of the moving staircases"
+        ],
         "showHints": 0
       },
       {
         "text": "Farm Haunted dreams",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the hauted armor enemies (Yes, the maid ones drops it too)"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Hero stumper",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a hallway on the left near the blood waterfall staircase room"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Pop-up code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a hallway on the moving stairs room"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Lute hero's loot",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a platform on the zone with movable staircases"
+        ],
         "showHints": 0
       },
       {
@@ -965,55 +1192,57 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Civilization's form",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a ledge at the moving staircase room"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Siphon code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Inside of a door on the building that you reach by jumping to the hole in the roof on the bridge that leads to the top of the castle"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Unsurped usurper's bloodletter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the coffin with a slain vampire inside near a beacon"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Run home",
         "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Uplifting barbell",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Security code",
-        "completed": false,
-        "hints": [],
+        "hints": [
+          "Near the door of the Chapel of purity"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Civilization's form",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the chapel of purity"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Perfect fit",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the bridge found on top of the chapel of humility. Kneel before the stone until the door opens and go up the staircase."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Foreign queen's chill",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Lying around the civilized area"
+        ],
         "showHints": 0
       },
       {
@@ -1021,7 +1250,31 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [],
         "showHints": 0
-      }
+      },
+      {
+        "text": "Get Uplifting barbell",
+        "completed": false,
+        "hints": [
+          "At a unstable chest on the second floor of the civilized area"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Security code",
+        "completed": false,
+        "hints": [
+          "At the end of the path of the unstable door near the chest"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Tunic's tunic",
+        "completed": false,
+        "hints": [
+          "At the statue of The puritan, inside of the chapel of humility"
+        ],
+        "showHints": 0
+      },
     ], "completed": false
   },
   {
@@ -1030,13 +1283,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Hero stumper",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the beacon outside of the Keep of the stolen crown, where the moat is"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Run home",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the room with a beacon and an anvil"
+        ],
         "showHints": 0
       },
       {
@@ -1059,19 +1316,25 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Wunderful point maker",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill Wunderschoenenberg"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Wunderful point maker",
         "completed": false,
-        "hints": [],
+        "hints": [
+          'On the room with her face after the unstable door'
+        ],
         "showHints": 0
       },
       {
-        "text": "Talk to Lady Sco and the old man to get The Heirloom",
+        "text": "Get The heirloom",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Talk to the old man and Vengeance after witnessing the death of the monarch"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1082,7 +1345,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Way lighter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Dropped by the Giant NPC at the start of the zone"
+        ],
         "showHints": 0
       },
       {
@@ -1094,13 +1359,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Memorysaber",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a pile of corpses on the open building on the left near the start of the zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Drake sabre",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the section that connects NPC city with the depths"
+        ],
         "showHints": 0
       },
       {
@@ -1112,13 +1381,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Confident snifter",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a unstable chest near the shortcut from the area of the elevator to the start"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Udder annihilator",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Explore NPC City until you need to climb a ladder onto the top floor of a building. The floor should be infested with NPCs wielding axes and umbrellas while there's one dude with a crossbow. Towards the right side, you should see a flat wall. You'll need to use Flat Traversal here. You should be on top of the building where the Reservoir of Pain is. There is the item."
+        ],
         "showHints": 0
       },
       {
@@ -1130,19 +1403,23 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Perfect fit",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Explore NPC City until you need to climb a ladder onto the top floor of a building. The floor should be infested with NPCs wielding axes and umbrellas while there's one dude with a crossbow. Towards the right side, you should see a flat wall. You'll need to use Flat Traversal here. You should be on top of the building where the Reservoir of Pain is. There is a noticeably neat stack of bricks here, remember the item here."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Anti-hero establisment",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the anvil room with anti-hero gear"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Stern glare",
         "completed": false,
-        "hints": [],
+        "hints": ["On the floor near the trash close to the elevator"],
         "showHints": 0
       }
     ], "completed": false
@@ -1153,7 +1430,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Farm Welcome uniform",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the degraded version of unblella-wielding NPCs"
+        ],
         "showHints": 0
       },
       {
@@ -1165,19 +1444,25 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Cipher",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill one of the degraded spiders on the room of the three ladders"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Projector shield",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill one of the degraded spiders on the room of the three ladders"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Unlikely lenses",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On an unstable chest on al balcony. At the start of broken streets section go to the left and flat traversal."
+        ],
         "showHints": 0
       },
       {
@@ -1189,25 +1474,33 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Glitter party code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a balcony on the market area. Enter on the building to the left and inside you will find a flat traversal zone. There is the item."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Heart of a hero",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the beacon on top of a heart shaped platform"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember The heirloom",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the 2D miniature of the castle"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Dagger of cycles",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the top of the elevator you take to face the boss"
+        ],
         "showHints": 0
       },
       {
@@ -1219,13 +1512,18 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Plot thread scissors",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the boss",
+          "Kill The narrator"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Bold blade's bulwark",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Obtained by completing the quest of Blade the bold and kill the narrator"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1236,7 +1534,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Stern glare",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near the pipe at the heart of Nostalgaia"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1258,19 +1558,27 @@ export const ZONES: Zone[] = [
       {
         "text": "Get New order's rule",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the boss",
+          "After the arena of Anti-heroes you will be ambushed by Brendon Merkle. Kill him to get his armor."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Vincible hammer",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the boss",
+          "After the arena of Anti-heroes you will be ambushed by Brendon Merkle. Kill him to get his weapon."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Plot thread scissors",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the narrator's study (Where you cut the plot thread)"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1298,49 +1606,65 @@ export const ZONES: Zone[] = [
       {
         "text": "Farm LHoasntd- OSnoel dTireurnkJacket",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the lost ones wearing gas masks"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Evil's grip",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the top of a wooden ramp found by following the first green arrow"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Honor code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Follow the green arrows to the end"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Bodacious blade",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill the 3D ninja"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Feline belt buckle",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a platform only accesible by dropping from above"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Abominable spear",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the floot at wooden platforms at the start of the second section of the zone."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Evil's pursuit",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the entrance of the small cave"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Bodacious blade",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the paradise sign"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1351,31 +1675,41 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Spirit's sword",
         "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Remember LHoasntd- OSnoel dTireurnkJacket",
-        "completed": false,
-        "hints": [],
+        "hints": [
+          "On the floor near the entrance of the bungalows area"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Evil's terror",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the hidden basement near the beacon"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember LHoasntd- OSnoel dTireurnkJacket",
+        "completed": false,
+        "hints": [
+          "Inside one of the rooms in the wooden maze-like zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Brother's love",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill Luivanni's anger"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Brother's love",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the beacon"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1386,25 +1720,33 @@ export const ZONES: Zone[] = [
       {
         "text": "Farm Bronze god's perfection",
         "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Evil's gaze",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Norm smasher",
-        "completed": false,
-        "hints": [],
+        "hints": [
+          "Farm the bronze NPCs"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Abominable spear",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a fountain near the beacon"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Norm smasher",
+        "completed": false,
+        "hints": [
+          "On a corpse near the fountain"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Evil's gaze",
+        "completed": false,
+        "hints": [
+          "Near the fountain, on a dead end"
+        ],
         "showHints": 0
       },
       {
@@ -1416,37 +1758,49 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Norm smasher",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the bloody area full of dead NPCs"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Destabilize",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near a fence arround the first shortcut of the zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Evil's wrath",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the path after the bloody area full of dead NPCs, follow to the end and there is the item on the floor"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Stalwart pencil",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Un the floor of the right path near the entrance of the underground section"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Abominable shield",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a dead end to the right after a bridge found near the exit of the underground section."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Abominable shield",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the entrance of the underground area"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1469,13 +1823,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Hatred of the future",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Remember the Twisted virtue of progress on the altered Statue of heroism"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Hatred of the past",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Remember the Twisted virtue of tradition on the altered Statue of heroism"
+        ],
         "showHints": 0
       },
       {
@@ -1513,15 +1871,19 @@ export const ZONES: Zone[] = [
     "name": "Oreshaft village - Reforge Evil set",
     "steps": [
       {
-        "text": "Reforge Evil's terror (Requires Hatred of the past)",
+        "text": "Reforge Evil's terror (Requires Hatred of the past and all anvils unlocked)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Go to the blacksmith with the full set and a new option will apear to reforge"
+        ],
         "showHints": 0
       },
       {
-        "text": "Reforge Evil's wrath (Requires Hatred of the future)",
+        "text": "Reforge Evil's wrath (Requires Hatred of the future and all anvils unlocked)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Go to the blacksmith with the weapon and a new option will apear to reforge"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1532,7 +1894,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Tempest lance",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Into the path to the slider after crossing to the secret underwater area"
+        ],
         "showHints": 0
       },
       {
@@ -1544,19 +1908,25 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Bad dream",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near the end of the first zone with the slamming tentacles"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Bad dream (Requires Caliber of memory remembered)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a dark portal found by following the downward path near the bottom of the dart section"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Bomb code",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Behind the dark wall you can walk through"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1567,19 +1937,26 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Cipher",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "At the Lair of the Adversary beacon, near a incomplete statute of Mercucio."
+        ],
         "showHints": 0
       },
       {
         "text": "Get Suaved rock",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On a unstable ches at the NPC staging room"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Other brother",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Wanna play some chess?",
+          "As you enter on the zone with the chess-like floor go to the left and at the end you will see a path behind the hall. Follow until the end and there is the wweapon."
+        ],
         "showHints": 0
       },
       {
@@ -1591,37 +1968,55 @@ export const ZONES: Zone[] = [
       {
         "text": "Get Chainmail bikini",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the floor of the strip club area"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Amnesiac's hope",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Remember the item on the room with a beacon right before Mercucio fight"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Chainmail bikini",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Go to the Heir's hideout and look towards the edge with the abandoned umbrella"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Laid pipe",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill Mercucio the pipelayer"
+        ],
         "showHints": 0
       },
       {
         "text": "Get Savior's raiment",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Kill Mercucio the pipelayer"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Savior's raiment",
+        "completed": false,
+        "hints": [
+          "On the Adversary's former office"
+        ],
         "showHints": 0
       }
     ], "completed": false
   },
   {
-    "name": "Hall of heroes",
+    "name": "Heartflow altar",
     "steps": [
       {
         "text": "Talk to Maiden Crone",
@@ -1656,36 +2051,83 @@ export const ZONES: Zone[] = [
     ], "completed": false
   },
   {
+    "name": "Hall of heroes - Remember items",
+    "steps": [
+      {
+        "text": "Remember Welcome uniform",
+        "completed": false,
+        "hints": [
+          "Near of the start of the game.",
+          "Go back to where you're from!",
+          "On the welcome party room you will find a NPC hanging in the air and a banner that reads \"Go back to where you're from!\". Remember the torso here."
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember New order's rule",
+        "completed": false,
+        "hints": [
+          "Near of the start of the game.",
+          " E COME",
+          "Go to the welcome desk on the beginning of the game. Remember the torso here."
+        ],
+        "showHints": 0
+      },
+
+      {
+        "text": "Remember Memorysaber",
+        "completed": false,
+        "hints": [
+          "On the room after the unstable door found on a balcony on the NPC staging room. Use flat traversal to get there."
+        ],
+        "showHints": 0
+      },
+    ], "completed": false
+  },
+  {
     "name": "Oreshaft village - Remember items",
     "steps": [
       {
         "text": "Remember Other brother",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "In front of the sewer tunnel"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Bucko blade",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "This swords hurts, so does bee strings",
+          "Near the first beacon, go to the door of Bee sting fetish. There you can remember the item"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember The legeneric",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "The tavern got a cozy fireplace",
+          "Return to the tavern and go near the fireplace to remember the item"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Haunted dreams",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Cthulhu",
+          "Go through the arc near the merchant and the blacksmith. Follow the snowy path until you reach Unbreakable maw's entrance. Remember the torso here."
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Spirit's sword",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the Easymaker shop"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1696,13 +2138,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Projector shield",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Flat traversal on the zone of the elevator after the grinder"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Forgottenspace armor",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the hole spewing void (Where do you start NHero and Lady Sco quest)"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1713,25 +2159,33 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Vincible hammer",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Near the banana tree"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Lute hero's loot",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the 4T weight in the rafters above the theater"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Gnom's dancing pole",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "In the theater's stage"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Leonard's lounge shorts (Requires Servant's shield remembered)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "Flat traversal the bridge near the entrance of the spire"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1742,13 +2196,17 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Laid pipe",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the balcony at the end of the zone"
+        ],
         "showHints": 0
       },
       {
         "text": "Remember Bold blade's bulwark",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the heir's bedroom"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1759,7 +2217,9 @@ export const ZONES: Zone[] = [
       {
         "text": "Remember Irrelevant appendage (Requires Projector shield remembered)",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "You can restore this item at the Validation Banner beacon"
+        ],
         "showHints": 0
       }
     ], "completed": false
@@ -1769,17 +2229,6 @@ export const ZONES: Zone[] = [
     "steps": [
       {
         "text": "Get Hidden armor set (Requires Irrelevant appendage remembered)",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      }
-    ], "completed": false
-  },
-  {
-    "name": "Lair of the adversary - Remember items",
-    "steps": [
-      {
-        "text": "Remember Savior's raiment",
         "completed": false,
         "hints": [],
         "showHints": 0
