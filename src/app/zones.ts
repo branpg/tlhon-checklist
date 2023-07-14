@@ -385,6 +385,12 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
+        "text": "Remember Primal pelts",
+        "completed": false,
+        "hints": [],
+        "showHints": 0
+      },
+      {
         "text": "Get Exploding puppy code",
         "completed": false,
         "hints": [
