@@ -39,3 +39,13 @@
 .hints-icon {
   margin-bottom: -0.3rem;
 }
+
+mat-cell > h2 {
+  max-width: 100%;
+  mat-list-item {
+    height: auto;
+    p {
+      white-space: break-spaces;
+    }
+  }
+}
