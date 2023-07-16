@@ -67,7 +67,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Heartflow altar",
@@ -99,7 +100,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village",
@@ -250,6 +252,14 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
+        "text": "Hit the anvil",
+        "completed": false,
+        "hints": [
+          "Near the beacon"
+        ],
+        "showHints": 0
+      },
+      {
         "text": "Unlock merchant",
         "completed": false,
         "hints": [
@@ -323,7 +333,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "The depths",
@@ -340,7 +351,7 @@ export const ZONES: Zone[] = [
         "text": "Remember Iron Jimmy",
         "completed": false,
         "hints": [
-          "On the damamged door to the NPC room"
+          "On the damaged door to the NPC room"
         ],
         "showHints": 0
       },
@@ -441,26 +452,38 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Festivity row",
     "steps": [
-      {
-        "text": "Get Hungry napkin",
-        "completed": false,
-        "hints": [
-          "Look around banana tree",
-          "Between the two knife-throwing nobles near the banana tree"
-        ],
-        "showHints": 0
-      },
       {
         "text": "Farm Golden guard",
         "completed": false,
         "hints": [
           "Farm the Golden guards"
         ],
+        "showHints": 0
+      },
+      {
+        "text": "Give NHero Shield of inspiration",
+        "completed": false,
+        "hints": [],
+        "showHints": 0
+      },
+      {
+        "text": "Get Brain piercer",
+        "completed": false,
+        "hints": [
+          "It should be on a sitting corpse near the entrance to the Spire"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Brain piercer",
+        "completed": false,
+        "hints": [],
         "showHints": 0
       },
       {
@@ -481,31 +504,19 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
+        "text": "Beat Vengance",
+        "completed": false,
+        "hints": [
+          "You see her running as you get out the elevator, follow and confront her"
+        ],
+        "showHints": 0
+      },
+      {
         "text": "Remember Golden guard",
         "completed": false,
         "hints": [
           "On the golden throne at top of the spire area, after taking the elevator"
         ],
-        "showHints": 0
-      },
-      {
-        "text": "Get Brain piercer",
-        "completed": false,
-        "hints": [
-          "It should be on a sitting corpse near the entrance to the Spire"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Remember Brain piercer",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Give NHero Shield of inspiration",
-        "completed": false,
-        "hints": [],
         "showHints": 0
       },
       {
@@ -515,10 +526,11 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Beat Vengance",
+        "text": "Get Hungry napkin",
         "completed": false,
         "hints": [
-          "You see her running as you get out the elevator, follow and confront her"
+          "Look around banana tree",
+          "Between the two knife-throwing nobles near the banana tree"
         ],
         "showHints": 0
       },
@@ -567,7 +579,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Hall of heroes - Uprez",
@@ -582,11 +595,31 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village - Uprez",
     "steps": [
+      {
+        "text": "Remember The legeneric",
+        "completed": false,
+        "hints": [
+          "The tavern got a cozy fireplace",
+          "Return to the tavern and go near the fireplace to remember the item"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Noble Epeen",
+        "completed": false,
+        "hints": [
+          "Inside of a house near the first beacon",
+          "There is a hidden ladder behind a bunch of boxes in the house",
+          "From the entrance of the village go to the left and you will see a house. Open the door and inside you will find a bunch of boxes. Break then and go up the hidden leader. Uprez the unstable door and enter the room. Remember the item here."
+        ],
+        "showHints": 0
+      },
       {
         "text": "Remember Shield Of Nostalran",
         "completed": false,
@@ -606,28 +639,13 @@ export const ZONES: Zone[] = [
           "There is an unstable door inside of the tavern on the second floor. Inside of this room there will be beds with several Memories of NPCs. In this room there is a broken wall that leads into another room. Go through it and get the item."
         ],
         "showHints": 0
-      },
-      {
-        "text": "Remember Noble Epeen",
-        "completed": false,
-        "hints": [
-          "Inside of a house near the first beacon",
-          "There is a hidden ladder behind a bunch of boxes in the house",
-          "From the entrance of the village go to the left and you will see a house. Open the door and inside you will find a bunch of boxes. Break then and go up the hidden leader. Uprez the unstable door and enter the room. Remember the item here."
-        ],
-        "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "The depths - Uprez",
     "steps": [
-      {
-        "text": "Remember Shield Of Nostalran",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
       {
         "text": "Get Sassy mousetrap",
         "completed": false,
@@ -645,7 +663,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Quest reward vault",
@@ -655,6 +674,39 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [
           "On the office desk"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Introspective purse",
+        "completed": false,
+        "hints": [
+          "Inside a unstable chest to de left of the vault door"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Easymaker key",
+        "completed": false,
+        "hints": [
+          "On the floor at the corridor"
+        ],
+        "showHints": 0
+      },
+
+      {
+        "text": "Hit the anvil",
+        "completed": false,
+        "hints": [
+          "Inside the second door on the corridor"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Arachnid's stinger",
+        "completed": false,
+        "hints": [
+          "Inside the cell with a refrigerator of the room with two guard knights. Pull the lever to open de cells."
         ],
         "showHints": 0
       },
@@ -669,25 +721,31 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Get Introspective purse",
+        "text": "Get Amnesiac's hope",
         "completed": false,
         "hints": [
-          "TODO: Check where it is. It seems to be near the entrance"
+          "On the floor at same room Blade the blood is"
         ],
         "showHints": 0
       },
       {
-        "text": "Get Easymaker key",
+        "text": "Meet Blade the bold (Can't help him now)",
         "completed": false,
         "hints": [],
         "showHints": 0
       },
       {
-        "text": "Remember Arachnid's stinger",
+        "text": "Get Crucible",
         "completed": false,
         "hints": [
-          "Inside the cell with a refrigerator of the room with two guard knights. Pull the lever to open de cells."
+          "On the unstable chest near the kitchen"
         ],
+        "showHints": 0
+      },
+      {
+        "text": "Remember Crucible",
+        "completed": false,
+        "hints": [],
         "showHints": 0
       },
       {
@@ -705,52 +763,25 @@ export const ZONES: Zone[] = [
           "On the stove near the kitchen beacon"
         ],
         "showHints": 0
-      },
-      {
-        "text": "Meet Blade the bold (Can't help him now)",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Amnesiac's hope",
-        "completed": false,
-        "hints": [
-          "On the floor at same room Blade the blood is"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Get Crucible",
-        "completed": false,
-        "hints": [
-          "On the unstable chest near the kitchen"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Remember Crucible",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Player housing",
     "steps": [
+      {
+        "text": "Talk to Nhero and accept his help",
+        "completed": false,
+        "hints": [],
+        "showHints": 0
+      },
       {
         "text": "Get Agile paperweight",
         "completed": false,
         "hints": [
           "Into the player housing area, near the cliff edge"
         ],
-        "showHints": 0
-      },
-      {
-        "text": "Talk to Nhero and accept his help",
-        "completed": false,
-        "hints": [],
         "showHints": 0
       },
       {
@@ -776,11 +807,20 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village - Quest reward vault's easymaker key",
     "steps": [
+      {
+        "text": "Get Blade the bold's withered icon (Needed fot Blade the bold's quest, don't return)",
+        "completed": false,
+        "hints": [
+          "On a side on the shortcut to Oreshaft village"
+        ],
+        "showHints": 0
+      },
       {
         "text": "Give Easymaker key to the merchant",
         "completed": false,
@@ -810,8 +850,18 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [],
         "showHints": 0
+      },
+      {
+        "text": "Remember Bucko blade",
+        "completed": false,
+        "hints": [
+          "This swords hurts, so does bee strings",
+          "Near the first beacon, go to the door of Bee sting fetish. There you can remember the item"
+        ],
+        "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Warlock's wilds",
@@ -825,37 +875,18 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Get Overflow nova code",
-        "completed": false,
-        "hints": [
-          "At the end of the hill after activating the first crystal rod"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Get Accommodating gourd",
-        "completed": false,
-        "hints": [
-          "On the village",
-          "On the top of the platforms",
-          "Climb to the platforms on the village. After crossing a bridge look down and you should see the item. Drop from the edge and get it."
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Get Source weapon code",
-        "completed": false,
-        "hints": [
-          "Near a big log guarded by 2 skeletons and a wild one",
-          "Go to the area that has a log going down and a path up. Go up and get into another log. There should be a chest containing this item."
-        ],
-        "showHints": 0
-      },
-      {
         "text": "Get Sword of service",
         "completed": false,
         "hints": [
           "To the right side of the first crystal rod"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Overflow nova code",
+        "completed": false,
+        "hints": [
+          "At the end of the hill to the left after activating the first crystal rod"
         ],
         "showHints": 0
       },
@@ -898,6 +929,33 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
+        "text": "Get Forgottenspace armor",
+        "completed": false,
+        "hints": [
+          "On the upper platforms in the village area"
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Accommodating gourd",
+        "completed": false,
+        "hints": [
+          "On the village",
+          "On the top of the platforms",
+          "Climb to the platforms on the village. After crossing a bridge look down and you should see the item. Drop from the edge and get it."
+        ],
+        "showHints": 0
+      },
+      {
+        "text": "Get Source weapon code",
+        "completed": false,
+        "hints": [
+          "Near a big log guarded by 2 skeletons and a wild one",
+          "Go to the area that has a log going down and a path up. Go up and get into another log. There should be a chest containing this item."
+        ],
+        "showHints": 0
+      },
+      {
         "text": "Remember Sword of service",
         "completed": false,
         "hints": [
@@ -924,28 +982,29 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
-        "text": "Remember Crown of the undone",
+        "text": "Talk to Maiden Crone",
         "completed": false,
-        "hints": [
-          "On the grave near Maiden Crone's hut"
-        ],
+        "hints": [],
         "showHints": 0
       },
       {
         "text": "Remember Lost one's visage",
         "completed": false,
         "hints": [
-          "On the house near Maiden Crone's hut"
+          "On the house behind Maiden Crone's hut"
         ],
         "showHints": 0
       },
       {
-        "text": "Talk to Maiden Crone",
+        "text": "Remember Crown of the undone",
         "completed": false,
-        "hints": [],
+        "hints": [
+          "On the grave near Maiden Crone's hut"
+        ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village",
@@ -963,16 +1022,9 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [],
         "showHints": 0
-      },
-      {
-        "text": "Remember Edge of entropy (Requires Chrysalis tooth remembered)",
-        "completed": false,
-        "hints": [
-          "On a void erupting altar inside of a cave found after flat traversing the bridge near the anvil"
-        ],
-        "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Warlock's wilds - After giving the Innocent the Gourd",
@@ -982,20 +1034,6 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [
           "Return back to the Maiden Crone's house and talk to her"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Get Easymaker key",
-        "completed": false,
-        "hints": [],
-        "showHints": 0
-      },
-      {
-        "text": "Get Forgottenspace armor",
-        "completed": false,
-        "hints": [
-          "On the upper platforms in the village area"
         ],
         "showHints": 0
       },
@@ -1014,6 +1052,14 @@ export const ZONES: Zone[] = [
         "showHints": 0
       },
       {
+        "text": "Get Easymaker key",
+        "completed": false,
+        "hints": [
+          "On de floor where the degraded spider stands"
+        ],
+        "showHints": 0
+      },
+      {
         "text": "Get Playful leaf",
         "completed": false,
         "hints": [
@@ -1021,10 +1067,11 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
-    "name": "Quest reward vault - Blade the bold's quest",
+  "name": "Quest reward vault - Blade the bold's quest",
     "steps": [
       {
         "text": "Give Withered icon to Blade the bold",
@@ -1032,7 +1079,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village - Warlock's wilds' easymaker key",
@@ -1073,10 +1121,11 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
-    "name": "Rehabilitation pits",
+    "name": "Outside of Keep of the stolen crown",
     "steps": [
       {
         "text": "Talk to Vengance",
@@ -1091,7 +1140,13 @@ export const ZONES: Zone[] = [
           "On the top of a hill inside of the maze"
         ],
         "showHints": 0
-      },
+      }
+    ],
+    "completed": false
+  },
+  {
+    "name": "Rehabilitation pits",
+    "steps": [
       {
         "text": "Get Tunic's tunic",
         "completed": false,
@@ -1144,7 +1199,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Keep of the stolen crown",
@@ -1281,7 +1337,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       },
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Rehabilitation pits - Lady Sco's quest",
@@ -1308,7 +1365,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Keep of the stolen crown - After Lady Sco's quest",
@@ -1343,7 +1401,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "NPC city",
@@ -1428,7 +1487,8 @@ export const ZONES: Zone[] = [
         "hints": ["On the floor near the trash close to the elevator"],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Start of sequence",
@@ -1532,7 +1592,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Heartflow altar",
@@ -1545,7 +1606,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oresaft village - Lady Sco",
@@ -1555,8 +1617,17 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [],
         "showHints": 0
+      },
+      {
+        "text": "Remember Edge of entropy (Requires Chrysalis tooth remembered)",
+        "completed": false,
+        "hints": [
+          "On a void erupting altar inside of a cave found after flat traversing the bridge near the anvil"
+        ],
+        "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Narrator's study",
@@ -1587,7 +1658,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Heartflow altar - NPC's quests",
@@ -1604,7 +1676,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Easymaker's retreat",
@@ -1673,7 +1746,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Leisure lake",
@@ -1718,7 +1792,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Builder's sanctuary",
@@ -1809,7 +1884,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Hall of heroes - The innocent quest",
@@ -1848,7 +1924,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Heartflow altar - The innocent quest",
@@ -1871,7 +1948,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village - Reforge Evil set",
@@ -1892,7 +1970,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Unbreachable maw",
@@ -1935,7 +2014,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Lair of the adversary",
@@ -2019,7 +2099,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Heartflow altar",
@@ -2054,7 +2135,8 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Hall of heroes - Remember items",
@@ -2088,7 +2170,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       },
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Oreshaft village - Remember items",
@@ -2098,24 +2181,6 @@ export const ZONES: Zone[] = [
         "completed": false,
         "hints": [
           "In front of the sewer tunnel"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Remember Bucko blade",
-        "completed": false,
-        "hints": [
-          "This swords hurts, so does bee strings",
-          "Near the first beacon, go to the door of Bee sting fetish. There you can remember the item"
-        ],
-        "showHints": 0
-      },
-      {
-        "text": "Remember The legeneric",
-        "completed": false,
-        "hints": [
-          "The tavern got a cozy fireplace",
-          "Return to the tavern and go near the fireplace to remember the item"
         ],
         "showHints": 0
       },
@@ -2136,7 +2201,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "The depths - Remember items",
@@ -2157,7 +2223,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Festivity row - Remember items",
@@ -2194,7 +2261,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Keep of the stolen crown - Remember items",
@@ -2215,7 +2283,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Unreachable maw - Remember items",
@@ -2228,7 +2297,8 @@ export const ZONES: Zone[] = [
         ],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   },
   {
     "name": "Heartflow altar - Hidden armor set",
@@ -2239,6 +2309,7 @@ export const ZONES: Zone[] = [
         "hints": [],
         "showHints": 0
       }
-    ], "completed": false
+    ],
+    "completed": false
   }
 ];
